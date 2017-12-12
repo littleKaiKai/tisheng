@@ -1,0 +1,12 @@
+.container .banner {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+.container .content .catalogue {
+  width: 200px;
+  float: left;
+}
+.container .content .detail {
+  display: flex;
+}

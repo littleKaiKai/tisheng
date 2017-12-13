@@ -7,3 +7,5 @@ gulp.task('less',function () {
         .pipe(less())
         .pipe(gulp.dest('css'))
 })
+
+gulp.task('default', ['less'])

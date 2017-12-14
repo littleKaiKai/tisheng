@@ -1,3 +1,6 @@
+body {
+    background-color: #dbd09b2d
+}
 .container {
     .banner {
         width: 100%;
@@ -10,10 +13,13 @@
             float: left;
             padding: 10px 0 30px;
             text-align: center;
-            background-color: yellowgreen;
+            background-color: rgb(228, 230, 224);
             .catalogue-item {
                 line-height: 20px;
                 margin-top: 30px;
+                &:first-child {
+                    margin-top: 15px;
+                }
                 .text {
                     display: inline-block;
                     padding: 12px 29px;
@@ -31,6 +37,22 @@
         }
         .detail {
             display: flex;
+            .detail-item {
+                float: left;
+                margin: 15px 0 15px 20px;
+                &:first-child {
+                    margin-left: 10px;
+                }
+                .text {
+                    display: inline-block;
+                    padding: 10px 30px;
+                    font-size: 14px;
+                    color: #63683cde;
+                    background-color: #a8ddf1; 
+                    border-radius: ~"23px / 18px";
+                    box-shadow: inset 0 4px 3px rgba(255, 255, 222, .7), inset -2px 0 rgba(255, 255, 222, .7), 0 7px 5px 0 rgba(21, 21, 21, 0.7), inset 2px 0 rgba(255, 255, 222, .7);             
+                }
+            }
         }
     }
 }
